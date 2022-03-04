@@ -1,4 +1,42 @@
+.row {
+    margin-bottom: 36px;
+}
+
 .item {
+    margin-right:  36px;
+    margin-bottom: 48px;
+    min-width: 220px;
+    height: 50px;
     display: inline-block;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 3px 0px black;
+}
+
+.item a:hover {
+    transform: translate(1px, 1px);
+}
+
+.item a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     border: 1px solid black;
+    border-radius: 2px;
+
+    color: black;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    background-color: white;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .item {
+        display: block;
+        margin-bottom: 24px;
+    }
 }

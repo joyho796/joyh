@@ -54,6 +54,87 @@ li {
     font-size: 18px;
 }
 
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 2px;
+  height: 14px;
+  width: 14px;
+  border: 1px solid rgb(99,99,99);
+  border-radius: 2px;
+}
+
+.need {
+    border: 1px solid rgb(181,21,21);
+    background-color: rgba(210,21,21,0.1);
+}
+
+.recommend {
+    border: 1px solid rgb(211,171,5);
+    background-color: rgba(240,210,5,0.1);
+}
+
+.optional {
+    border: 1px solid rgb(31,161,31);
+    background-color: rgba(31,200,31,0.1);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 4.5px;
+  top: 2px;
+  width: 3px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 input [type=checkbox] {
     border-color: blue;
 }
