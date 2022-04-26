@@ -1,143 +1,212 @@
 body {
-    font-family: 'Lato', sans-serif;
-    margin: 10%;
-    margin-top: 8vh;
+    background-image: url('../assets/backgrounds/kitchen.jpg');
+    background-position: bottom left 28%;
+    background-size: cover;
+    overflow-y: scroll;
 }
 
-p {
-    margin: 0;
-    padding: 0;
+#title {
+    right: 0;
+    position: absolute;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    transform: translateY(0);
+    top: 145px;
+    background-color: #272422;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 5vh;
+    height: 90px;
+    line-height: 90px;
+    display: inline-block;
+    letter-spacing: 0.22em;
 }
 
-a {
-    color: #888888;
-    text-decoration: none;
+#subtitle {
+    right: 1.4em;
+    position: absolute;
+    transform: translateY(0vh);
+    top: 118px;
+    padding-left: 8px;
+    padding-right: 4px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: #272422;
+    font-weight: 800;
+    font-size: 2.9vh;
+    line-height: 40px;
+    display: inline-block;
+    letter-spacing: 0.1em;
 }
 
-h1 {
-    margin-top: 12px;
-    transform: translateX(-6px);
-    font-size: 48px;
-    letter-spacing: 1px;
-    font-weight: 700;
+span {
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
-h2 {
-    margin-top: 64px;
-    transform: translateX(-2px);
-    font-size: 32px;
-    letter-spacing: 0.5px;
+#image {
+    position: absolute;
+    left: 0;
+    top: 145px;
+    width: 35vw;
+    height: 35vw;
+    transition: 0.5s;
 }
 
-h3 {
-    margin-bottom: 8px;
-    margin-top: 0px;
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
-ul {
-    padding-left: 24px;
+#caption {
+    width: calc(35vw - 64px);
+    position: absolute;
+    padding: 1em;
+    left: 0;
+    top: calc(35vw + 36px);
+    color: #272422;
+    background-color: #FFFFFF;
 }
 
-li {
-    font-size: 22px;
-    margin-bottom: 16px;
+#caption span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: left;
+    display: inline-block;
+    letter-spacing: 0.01em;
 }
 
-#ingredients {
+
+#header span {
+    display: block;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+#text1, #text2 {
     display: flex;
+    padding-left: 2em;
+    gap: 16px;
+    text-align: center;
+    flex-direction: column;
+    color: #272422;
+    background-color: #FFFFFF;
+}
+
+#text1 {
     flex-direction: row;
-    gap: 48px;
 }
 
-.ingredient {
-    margin-left: 4px;
+#text2 {
+    padding-bottom: 2em;
+}
+
+#text1 span, #text2 span {
+    display: block;
+    font-weight: 400;
     font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-align: left;
 }
 
-/* Customize the label (the container) */
-.container {
-  display: block;
-  position: relative;
-  padding-left: 24px;
-  margin-bottom: 4px;
-  cursor: pointer;
-  font-size: 18px;
-  font-family: 'Lato', sans-serif;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+#mobile {
+    right: 0;
+    position: absolute;
+    top: 285px;
+    width: 55vw;
+    background-color: #ffffff;
+
 }
 
-/* Hide the browser's default checkbox */
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+#mob {
+    display: none;
 }
 
-/* Create a custom checkbox */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 2px;
-  height: 14px;
-  width: 14px;
-  border: 1px solid rgb(99,99,99);
-  border-radius: 2px;
-}
+@media only screen and (max-width: 900px) {
+    #desktop {
+        display: none;
+    }
+    #mob{
+        padding-top: 3px;
+        display: block;
+    }
+    #image {
+        transform: translateY(144px);
+        width: calc(100vw - 34px);
+        height: calc(100vw - 34px);
+    }
 
-.need {
-    border: 1px solid rgb(181,21,21);
-    background-color: rgba(210,21,21,0.1);
-}
+    #caption {
+        width: calc(100vw - 118px);
+        top: calc(100vw - 34px + 36px);
+    }
 
-.recommend {
-    border: 1px solid rgb(211,171,5);
-    background-color: rgba(240,210,5,0.1);
-}
+    #mobile {
+        width: 100vw;
+        position: absolute;
+        top: calc(100vw + 464px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+        justify-content: flex-start;
+        background-color: rgba(0,0,0,0);
+    }
 
-.optional {
-    border: 1px solid rgb(31,161,31);
-    background-color: rgba(31,200,31,0.1);
-}
+    #title {
+        font-size: 4vh;
+    }
 
-/* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: rgba(0,0,0,0.3);
-}
+    #header {
+    background-color: #272422;
+    width: 235px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
+    }
 
-/* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
-  display: block;
-}
+    #header span {
+        padding: 0;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 48px;
+        width: 100%;
+        letter-spacing: 0.16em;
+        text-align: center;
+    }
 
-/* Style the checkmark/indicator */
-.container .checkmark:after {
-  left: 4.5px;
-  top: 2px;
-  width: 3px;
-  height: 6px;
-  border: solid white;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
+    #text1, #text2 {
+        display: flex;
+        padding: 2em;
+        gap: 28px;
+        text-align: center;
+        flex-direction: column;
+        height: 100%;
+        color: #272422;
+        background-color: #FFFFFF;
+        width: calc(100vw - 128px);    
+        margin-bottom: 36px;
+    }
 
-input [type=checkbox] {
-    border-color: blue;
-}
-
-#instructions {
+    #text1 span, #text2 span {
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        text-align: left;
+    }
 }

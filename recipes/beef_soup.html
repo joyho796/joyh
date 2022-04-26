@@ -1,108 +1,100 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Recipes | Beef Soup</title>
-    <link href="recipe.css" rel="stylesheet">
+    <title>Recipes | 牛肉面</title>
+    <link href="../theme.css" rel="stylesheet">
+    <link href="./recipe.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/favi.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <a href='../recipe_list.html'><span id='back'>← back to recipe list</span></a>
-  <h1>Beef Soup</h1>
 
-  <h2>Ingredients</h2>
-  <div id='ingredients'>
-  <div>
-    <h3>Main things</h3>
-    <label class="container">1 lb beef chuck
-      <input type="checkbox">
-      <span class="checkmark need"></span>
-    </label>
-    <label class="container">1 onion
-      <input type="checkbox">
-      <span class="checkmark need"></span>
-    </label>
-    <label class="container">2 tomatoes
-      <input type="checkbox">
-      <span class="checkmark recommend"></span>
-    </label>
-    <label class="container">1 large carrot
-      <input type="checkbox">
-      <span class="checkmark optional"></span>
-    </label>
-  </div>  
+  <a href='../recipe_list.html'>
+    <div id='back' style='padding-left: 18px'>
+      <div id='desktop'>
+        <svg width="15" height="30" viewBox="0 0 15 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12.1833 2.59827L2.18335 14.8205L12.1833 27.0427" stroke="white" stroke-width="3" stroke-linecap="square"/>
+        </svg>
+      </div>
+      <div id='mob'>
+        <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.25 3.66663L5.25 11L11.25 18.3333" stroke="white" stroke-width="2.5" stroke-linecap="square"/>
+        </svg>
+      </div>
+      <span style='font-weight: 600; width: 90px'>Back</span>
+    </div>
+  </a>
 
-  <div>
-    <h3>Flavorings</h3>
-    <label class="container">soy sauce
-      <input type="checkbox">
-      <span class="checkmark need"></span>
-    </label>
-    <label class="container">dark soy sauce
-      <input type="checkbox">
-      <span class="checkmark need"></span>
-    </label>
-    <label class="container">cooking wine
-      <input type="checkbox">
-      <span class="checkmark need"></span>
-    </label>
-    <label class="container">3 bay leaves
-      <input type="checkbox">
-      <span class="checkmark recommend"></span>
-    </label>
-    <label class="container">tomato paste
-      <input type="checkbox">
-      <span class="checkmark optional"></span>
-    </label>
-    <label class="container">white pepper
-      <input type="checkbox">
-      <span class="checkmark optional"></span>
-    </label>
-  </div>  
-
-  <div>
-    <h3>&nbsp&nbsp&nbsp&nbsp</h3>
+  <div id='nav'>
+    <div class='desktop'>
+      <a href='../index.html'><span>Home</span></a>
+      <a href='../temp.html'><span>Projects</span></a>
+      <a href='../temp.html'><span>UI/UX</span></a>
+      <a href='../recipe_list.html'><span style='font-weight: 600;'>Recipes</span></a>
+    </div>
+    <div class='mobile'>
+      <a href='../index.html'><span>Home</span></a>
+    </div>
   </div>
 
-  <div>
-    <h3>Key</h3>
-    <label class="container">need
-      <input type="checkbox">
-      <span class="checkmark need"></span>
-    </label>
-    <label class="container">recommend
-      <input type="checkbox">
-      <span class="checkmark recommend"></span>
-    </label>
-    <label class="container">optional
-      <input type="checkbox">
-      <span class="checkmark optional"></span>
-    </label>
+  <div id='heading'>
+    <div id='title'>
+      <span>牛肉面</span>
+    </div>
+    <div id='subtitle'>
+      <span>1 hr</span>
+    </div>
   </div>
 
+  <div id='image'>
+    <img src='../assets/foods/beef-noodle.jpg'>
+    <div id='caption'>
+      <span>Warm and soupy noodles are one of my common cravings, these noodles are one of my go-tos.</span>
+    </div>
   </div>
 
-  <div id='instructions'>
-  <h2>How to cook</h2>
-
-  <h3>Sear beef</h3>
-  <p>Beef should be cut in ~3cm cubes. Sear until browned. Doesn't need to be fully cooked through. Remove when done.</p>
-  <br>
-  <h3>Saute onions</h3>
-  <p>Onions roughly diced, saute until translucent. </p>
-  <br>
-  <h3>Add carrots and tomatoes</h3>
-  <p>Add diced carrots and tomatoes, bay leaves, and a pinch of sugar. Saute for ~2 mins.</p>
-  <br>
-  <h3>Beef + sauce</h3>
-  <p>Return beef to pot, add equal parts soy sauce, dark soy sauce, and cooking wine, ~75ml each.</p>
-  <br>
-  <h3>Cover with water and cook</h3>
-  <p>Doesn't have to be boiling water, cover until everything is submerged. Pressure cook on high for 30 mins.</p>
-  <br>
-  <h3>Reduce and salt</h3>
-  <p>Taste the soup, and reduce and salt as necessary.</p>
-  <br>
-  <h3>Serve with noodles or rice</h3>
+  <div id='mobile'>
+    <div id='header'>
+      <span>Ingredients</span>
+    </div>
+    <div id='text1'>
+      <span>
+        1lb beef chuck<br>
+        1 onion<br>
+        2 tomatoes<br>
+        1 carrot (optional)<br>
+      </span>
+      <span>
+        70ml soy sauce<br>
+        70ml dark soy sauce<br>
+        70ml cooking wine<br>
+        3 bay leaves<br>
+        10ml tomato paste (optional)<br>
+      </span>
+    </div>
+    <div id='header'>
+      <span>Instructions</span>
+    </div>
+    <div id='text2'>
+      <span>
+        Cube beef into about 3cm cubes, they will shrink in the cooking proccess. Sear beef just until browned on the outside and remove.
+      </span>
+      <span>
+        Sauté roughly diced onions until translucent, then add in diced carrots, tomates, bay leaves, and a pinch of sugar. Sauté for about 2 mins.
+      </span>
+      <span>
+        Return beef to the pot, and add in the soy sauce, dark soy sauce, and cooking wine.
+      </span>
+      <span>
+        Cover with just enough water to submerge, and pressure cook on high for 30 mins. 
+      </span>
+      <span>
+        Taste the soup, reduce and salt as necessary. Serve with rice or noodles.
+      </span>
+    </div>
   </div>
 
 </body>
