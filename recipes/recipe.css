@@ -126,7 +126,6 @@ img {
     top: 285px;
     width: 55vw;
     background-color: #ffffff;
-
 }
 
 #mob {
@@ -165,7 +164,7 @@ img {
     }
 
     #title {
-        font-size: 4vh;
+        font-size: 3.5vh;
     }
 
     #header {
