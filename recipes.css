@@ -2,6 +2,7 @@ body {
     background-image: url('./assets/backgrounds/kitchen.jpg');
     background-position: bottom left 28%;
     background-size: cover;
+    background-attachment: fixed;
     overflow-y: scroll;
 }
 

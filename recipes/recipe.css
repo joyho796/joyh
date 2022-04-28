@@ -1,6 +1,7 @@
 body {
     background-image: url('../assets/backgrounds/kitchen.jpg');
     background-position: bottom left 28%;
+    background-attachment: fixed;
     background-size: cover;
     overflow-y: scroll;
 }
@@ -16,8 +17,7 @@ body {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 5vh;
-    height: 90px;
-    line-height: 90px;
+    
     display: inline-block;
     letter-spacing: 0.22em;
 }
@@ -41,6 +41,7 @@ body {
 
 span {
     text-align: center;
+    line-height: 90px;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
