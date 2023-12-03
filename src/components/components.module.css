@@ -1,0 +1,40 @@
+.placeholderContainer {
+    background-color: var(--base-gray);
+    margin: auto;
+    padding: 2em;
+    margin-top: 72px;
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+}
+
+.placeholderText {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--white);
+    letter-spacing: 0.12em;
+    font-style: italic;
+}
+
+.heading  {
+    background-color: var(--base-gray);
+    display: inline-flex;
+}
+
+.headingText {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 54px;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    letter-spacing: 0.28em;
+    color: var(--white);
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        width: 100vw;
+    }
+}

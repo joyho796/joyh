@@ -1,0 +1,103 @@
+.background {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/images/backgrounds/restaurant.jpg');
+    background-position: bottom 50% left 18%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title {
+    right: 0;
+    position: absolute;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    transform: translateY(15vh);
+    height: 120px;
+    background-color: var(--base-gray);
+    color: var(--white);
+    font-weight: 900;
+    font-size: 6vh;
+    display: inline-block;
+    letter-spacing: 0.22em;
+}
+.subtitle {
+    right: 2.5em;
+    position: absolute;
+    padding-left: 8px;
+    padding-right: 8px;
+    transform: translateY(10.5vh);
+    height: 50px;
+    background-color: var(--white);
+    color: var(--);
+    font-weight: 800;
+    font-size: 2.9vh;
+    line-height: 50px;
+    display: inline-block;
+    letter-spacing: 0.1em;
+}
+
+.subsubtitle {
+    right: 18vw;
+    position: absolute;
+    transform: translateY(calc(15vh + 110px));
+    height: 60px;
+    color: #272422;
+    font-weight: 300;
+    font-size: 3.2vh;
+    line-height: 67px;
+    letter-spacing: 0.18em;
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.links {
+    transform: translate(0.5em, calc(25vh + 130px));
+    position: absolute;
+    right: -0.5em;
+}
+.link {
+    position: relative;
+    margin-bottom: 40px;
+    padding-right: 1em;
+    background-color: var(--white);
+    height: 55px;  
+    width: 350px;
+    display: block;
+    font-size: 3.5vh;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0.06em;
+    transition: 0.5s;
+    color: var(--base-gray);
+    text-decoration: none;
+}
+
+.link .container {
+    justify-content: flex-end;
+}
+
+.link:hover {
+    transform: translate(-0.5em);
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 36px;
+    }
+    .subtitle {
+        right: 1.5em;
+        font-size: 24px;
+        line-height: 36px;
+        height: 36px;
+        transform: translateY(12vh);
+    }
+    .subsubtitle {
+        left: 3vw;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+}
