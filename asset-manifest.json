@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/joyh/static/css/main.ec2ae959.css",
+    "main.js": "/joyh/static/js/main.83ce331c.js",
+    "static/js/787.590ae843.chunk.js": "/joyh/static/js/787.590ae843.chunk.js",
+    "static/media/tomato-soup.jpg": "/joyh/static/media/tomato-soup.b2787f52fb5f43a93c16.jpg",
+    "static/media/french-roll.jpg": "/joyh/static/media/french-roll.19d96ee55c55e386b92c.jpg",
+    "static/media/chicken-noodle.jpg": "/joyh/static/media/chicken-noodle.8bd3b9a6897ea943da22.jpg",
+    "static/media/milk-bread.jpg": "/joyh/static/media/milk-bread.4f06b368b0a42b246f1f.jpg",
+    "static/media/kitchen3.jpg": "/joyh/static/media/kitchen3.bd3522fb78a5802a2efd.jpg",
+    "static/media/alfredo.jpg": "/joyh/static/media/alfredo.887c70a6f8fa27b4ea2a.jpg",
+    "static/media/garlic-rice.jpg": "/joyh/static/media/garlic-rice.9b67d1e407af7cabc8c2.jpg",
+    "static/media/pound-cake.jpg": "/joyh/static/media/pound-cake.588ac2927944831b0301.jpg",
+    "static/media/restaurant.jpg": "/joyh/static/media/restaurant.55982716c371bae21d80.jpg",
+    "static/media/luroufan.jpg": "/joyh/static/media/luroufan.e8e790bf3a653f03ab34.jpg",
+    "static/media/kitchen2.jpg": "/joyh/static/media/kitchen2.e259ea37743a2ac047d6.jpg",
+    "static/media/crepes.jpg": "/joyh/static/media/crepes.bdfefcc830bacda3e267.jpg",
+    "static/media/kitchen.jpg": "/joyh/static/media/kitchen.4d6f80bae2c60bd0120f.jpg",
+    "static/media/creme-brulee.jpg": "/joyh/static/media/creme-brulee.7af8de9acfb7d8b77e79.jpg",
+    "static/media/thai-beef-salad.jpg": "/joyh/static/media/thai-beef-salad.a0c2336e0c7121f9026b.jpg",
+    "static/media/niangao.jpg": "/joyh/static/media/niangao.6a2944491bdd462e322f.jpg",
+    "static/media/chiffon-cake.jpg": "/joyh/static/media/chiffon-cake.5e50473ccca45d0a650a.jpg",
+    "static/media/bolognese.jpg": "/joyh/static/media/bolognese.698e4a66261bd164fc15.jpg",
+    "static/media/teriyaki-chicken.jpg": "/joyh/static/media/teriyaki-chicken.5ea90660da92fd900734.jpg",
+    "static/media/burger-buns.jpg": "/joyh/static/media/burger-buns.6c19f5dcad03aa4cfd80.jpg",
+    "static/media/pineapple-bread.jpg": "/joyh/static/media/pineapple-bread.1d8d6738b5d4339ce98b.jpg",
+    "static/media/beef-noodle.jpg": "/joyh/static/media/beef-noodle.f562d580b79263345de4.jpg",
+    "static/media/croissants.jpg": "/joyh/static/media/croissants.1f24198d181f5e55d35e.jpg",
+    "static/media/temp.jpg": "/joyh/static/media/temp.d94d85aa644e6b064a55.jpg",
+    "index.html": "/joyh/index.html",
+    "main.ec2ae959.css.map": "/joyh/static/css/main.ec2ae959.css.map",
+    "main.83ce331c.js.map": "/joyh/static/js/main.83ce331c.js.map",
+    "787.590ae843.chunk.js.map": "/joyh/static/js/787.590ae843.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec2ae959.css",
+    "static/js/main.83ce331c.js"
+  ]
+}
