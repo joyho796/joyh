@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78660bf0.css",
+    "main.js": "/static/js/main.67848767.js",
+    "static/js/787.590ae843.chunk.js": "/static/js/787.590ae843.chunk.js",
+    "static/media/tomato-soup.jpg": "/static/media/tomato-soup.b2787f52fb5f43a93c16.jpg",
+    "static/media/french-roll.jpg": "/static/media/french-roll.19d96ee55c55e386b92c.jpg",
+    "static/media/chicken-noodle.jpg": "/static/media/chicken-noodle.8bd3b9a6897ea943da22.jpg",
+    "static/media/milk-bread.jpg": "/static/media/milk-bread.4f06b368b0a42b246f1f.jpg",
+    "static/media/kitchen3.jpg": "/static/media/kitchen3.bd3522fb78a5802a2efd.jpg",
+    "static/media/alfredo.jpg": "/static/media/alfredo.887c70a6f8fa27b4ea2a.jpg",
+    "static/media/garlic-rice.jpg": "/static/media/garlic-rice.9b67d1e407af7cabc8c2.jpg",
+    "static/media/pound-cake.jpg": "/static/media/pound-cake.588ac2927944831b0301.jpg",
+    "static/media/restaurant.jpg": "/static/media/restaurant.55982716c371bae21d80.jpg",
+    "static/media/luroufan.jpg": "/static/media/luroufan.e8e790bf3a653f03ab34.jpg",
+    "static/media/kitchen2.jpg": "/static/media/kitchen2.e259ea37743a2ac047d6.jpg",
+    "static/media/crepes.jpg": "/static/media/crepes.bdfefcc830bacda3e267.jpg",
+    "static/media/kitchen.jpg": "/static/media/kitchen.4d6f80bae2c60bd0120f.jpg",
+    "static/media/creme-brulee.jpg": "/static/media/creme-brulee.7af8de9acfb7d8b77e79.jpg",
+    "static/media/thai-beef-salad.jpg": "/static/media/thai-beef-salad.a0c2336e0c7121f9026b.jpg",
+    "static/media/niangao.jpg": "/static/media/niangao.6a2944491bdd462e322f.jpg",
+    "static/media/chiffon-cake.jpg": "/static/media/chiffon-cake.5e50473ccca45d0a650a.jpg",
+    "static/media/bolognese.jpg": "/static/media/bolognese.698e4a66261bd164fc15.jpg",
+    "static/media/teriyaki-chicken.jpg": "/static/media/teriyaki-chicken.5ea90660da92fd900734.jpg",
+    "static/media/burger-buns.jpg": "/static/media/burger-buns.6c19f5dcad03aa4cfd80.jpg",
+    "static/media/pineapple-bread.jpg": "/static/media/pineapple-bread.1d8d6738b5d4339ce98b.jpg",
+    "static/media/beef-noodle.jpg": "/static/media/beef-noodle.f562d580b79263345de4.jpg",
+    "static/media/croissants.jpg": "/static/media/croissants.1f24198d181f5e55d35e.jpg",
+    "static/media/temp.jpg": "/static/media/temp.d94d85aa644e6b064a55.jpg",
+    "index.html": "/index.html",
+    "main.78660bf0.css.map": "/static/css/main.78660bf0.css.map",
+    "main.67848767.js.map": "/static/js/main.67848767.js.map",
+    "787.590ae843.chunk.js.map": "/static/js/787.590ae843.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78660bf0.css",
+    "static/js/main.67848767.js"
+  ]
+}
