@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joyh/static/css/main.ec2ae959.css",
-    "main.js": "/joyh/static/js/main.f9667d05.js",
+    "main.css": "/joyh/static/css/main.cb3f6e67.css",
+    "main.js": "/joyh/static/js/main.59e17818.js",
     "static/js/787.590ae843.chunk.js": "/joyh/static/js/787.590ae843.chunk.js",
     "static/media/tomato-soup.jpg": "/joyh/static/media/tomato-soup.b2787f52fb5f43a93c16.jpg",
     "static/media/french-roll.jpg": "/joyh/static/media/french-roll.19d96ee55c55e386b92c.jpg",
@@ -28,12 +28,12 @@
     "static/media/croissants.jpg": "/joyh/static/media/croissants.1f24198d181f5e55d35e.jpg",
     "static/media/temp.jpg": "/joyh/static/media/temp.d94d85aa644e6b064a55.jpg",
     "index.html": "/joyh/index.html",
-    "main.ec2ae959.css.map": "/joyh/static/css/main.ec2ae959.css.map",
-    "main.f9667d05.js.map": "/joyh/static/js/main.f9667d05.js.map",
+    "main.cb3f6e67.css.map": "/joyh/static/css/main.cb3f6e67.css.map",
+    "main.59e17818.js.map": "/joyh/static/js/main.59e17818.js.map",
     "787.590ae843.chunk.js.map": "/joyh/static/js/787.590ae843.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec2ae959.css",
-    "static/js/main.f9667d05.js"
+    "static/css/main.cb3f6e67.css",
+    "static/js/main.59e17818.js"
   ]
 }
