@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/joyh/static/css/main.cb3f6e67.css",
-    "main.js": "/joyh/static/js/main.59e17818.js",
+    "main.css": "/joyh/static/css/main.4fa3f7cf.css",
+    "main.js": "/joyh/static/js/main.a812d8d5.js",
     "static/js/787.590ae843.chunk.js": "/joyh/static/js/787.590ae843.chunk.js",
     "static/media/tomato-soup.jpg": "/joyh/static/media/tomato-soup.b2787f52fb5f43a93c16.jpg",
     "static/media/french-roll.jpg": "/joyh/static/media/french-roll.19d96ee55c55e386b92c.jpg",
+    "static/media/brown-butter-cookies.jpg": "/joyh/static/media/brown-butter-cookies.717b81a6e5039f4ca767.jpg",
     "static/media/chicken-noodle.jpg": "/joyh/static/media/chicken-noodle.8bd3b9a6897ea943da22.jpg",
     "static/media/milk-bread.jpg": "/joyh/static/media/milk-bread.4f06b368b0a42b246f1f.jpg",
+    "static/media/gingerbread.jpg": "/joyh/static/media/gingerbread.e9526b86b303a94b1c78.jpg",
     "static/media/kitchen3.jpg": "/joyh/static/media/kitchen3.bd3522fb78a5802a2efd.jpg",
     "static/media/alfredo.jpg": "/joyh/static/media/alfredo.887c70a6f8fa27b4ea2a.jpg",
     "static/media/garlic-rice.jpg": "/joyh/static/media/garlic-rice.9b67d1e407af7cabc8c2.jpg",
@@ -17,6 +19,7 @@
     "static/media/crepes.jpg": "/joyh/static/media/crepes.bdfefcc830bacda3e267.jpg",
     "static/media/kitchen.jpg": "/joyh/static/media/kitchen.4d6f80bae2c60bd0120f.jpg",
     "static/media/creme-brulee.jpg": "/joyh/static/media/creme-brulee.7af8de9acfb7d8b77e79.jpg",
+    "static/media/cha-shao-egg.jpg": "/joyh/static/media/cha-shao-egg.798625796ad73bcbb062.jpg",
     "static/media/thai-beef-salad.jpg": "/joyh/static/media/thai-beef-salad.a0c2336e0c7121f9026b.jpg",
     "static/media/niangao.jpg": "/joyh/static/media/niangao.6a2944491bdd462e322f.jpg",
     "static/media/chiffon-cake.jpg": "/joyh/static/media/chiffon-cake.5e50473ccca45d0a650a.jpg",
@@ -28,12 +31,12 @@
     "static/media/croissants.jpg": "/joyh/static/media/croissants.1f24198d181f5e55d35e.jpg",
     "static/media/temp.jpg": "/joyh/static/media/temp.d94d85aa644e6b064a55.jpg",
     "index.html": "/joyh/index.html",
-    "main.cb3f6e67.css.map": "/joyh/static/css/main.cb3f6e67.css.map",
-    "main.59e17818.js.map": "/joyh/static/js/main.59e17818.js.map",
+    "main.4fa3f7cf.css.map": "/joyh/static/css/main.4fa3f7cf.css.map",
+    "main.a812d8d5.js.map": "/joyh/static/js/main.a812d8d5.js.map",
     "787.590ae843.chunk.js.map": "/joyh/static/js/787.590ae843.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb3f6e67.css",
-    "static/js/main.59e17818.js"
+    "static/css/main.4fa3f7cf.css",
+    "static/js/main.a812d8d5.js"
   ]
 }
